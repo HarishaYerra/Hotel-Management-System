@@ -23,7 +23,7 @@ public class Amenity {
 
     private String name;
 
-    @Lob
+    
     private String description;
 
     @OneToMany(mappedBy = "amenity", cascade = CascadeType.ALL)
