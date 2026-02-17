@@ -25,7 +25,6 @@ public class Hotel {
 
     private String location;
 
-    @Lob
     private String description;
 
     @OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL)
